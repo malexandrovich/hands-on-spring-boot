@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fba59bbe-cdfb-4704-acbb-e5578901d196" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/demo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/socialNetwork.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/socialNetwork.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/dto/CreateCourseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/dto/CreateCourseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/dto/UpdateCourseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/dto/UpdateCourseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/exceptions/CourseNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/exceptions/CourseNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/models/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/repositories/CoursesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/repositories/CoursesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/services/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/services/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/utils/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/utils/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/utils/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/springproject/socialnetwork/utils/TestUtils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/demo">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2G4mWGM2wkvTzzy6l2y6Tjrh88w" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.CourseTest">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springproject.socialnetwork.Application" />
+      <module name="demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springproject.socialnetwork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demo" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.springproject.socialnetwork.controller.CourseTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="start-prod" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/demo/Makefile" target="start-prod" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/demo/Makefile" target="start" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CourseTest" />
+        <item itemvalue="Makefile Target.start" />
+        <item itemvalue="Makefile Target.start-prod" />
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fba59bbe-cdfb-4704-acbb-e5578901d196" name="Changes" comment="" />
+      <created>1665656262459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665656262459</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
