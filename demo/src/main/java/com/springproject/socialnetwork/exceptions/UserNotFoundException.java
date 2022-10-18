@@ -4,16 +4,16 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
- * Exception for case when the Course will be not found.
+ * Exception for case if the User will be not found.
  */
 @ResponseStatus(HttpStatus.NOT_FOUND)
-public class CourseNotFoundException extends RuntimeException {
+public class UserNotFoundException extends RuntimeException{
 
   private String message;
 
-  public CourseNotFoundException() {}
+  public UserNotFoundException() {}
 
-  public CourseNotFoundException(String message) {
+  public UserNotFoundException(String message) {
     super(message);
     this.message = message;
   }

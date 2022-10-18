@@ -1,7 +1,9 @@
 package com.springproject.socialnetwork;
 
 import com.springproject.socialnetwork.models.Course;
+import com.springproject.socialnetwork.models.User;
 import com.springproject.socialnetwork.repositories.CoursesRepository;
+import com.springproject.socialnetwork.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -16,8 +18,15 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
+	/**
+	 * Bean for filling the database with data.
+	 *
+	 * @param courseRepository - the course repository.
+	 * @param userRepository - the user repository.
+	 * @return CommandLineRunner.
+	 */
 	@Bean
-	public CommandLineRunner demoData(CoursesRepository courseRepository) {
+	public CommandLineRunner demoData(CoursesRepository courseRepository, UserRepository userRepository) {
 		return args -> {
 			Course course1 = new Course();
 			course1.setId(1L);
@@ -39,6 +48,12 @@ public class Application {
 			course3.setDescription("Course description");
 			course3.setLink("http://localhost:8080");
 			courseRepository.save(course3);
+
+			User user1 = new User();
+			user1.setUsername("user");
+			user1.setPassword("pass");
+			user1.setRole("ROLE_USER");
+			userRepository.save(user1);
 		};
 	}
 }

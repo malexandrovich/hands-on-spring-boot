@@ -12,6 +12,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * Course model.
+ */
 @Entity(name = "Course")
 @Table(name = "courses")
 @Getter
